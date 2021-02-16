@@ -1,0 +1,781 @@
+/* ------------------ Menus Section ------------------- */
+.menus-section {
+    background-color: white;
+}
+.menus-section .my-container .navbar {
+    background-color: white!important;
+}
+.menus-section .my-container .navbar .nav-logo .navbar-brand img {
+    width: 120px;
+    height: 62px;
+}
+/* ------------- End - Menus Section ------------------ */
+
+body {
+    /* outline: 2px solid red; //To check where element is going out of margin */
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* ----------------- menu-cart-div------------- */
+/* ----- For All Cart Buttons  ----- */
+.menu-cart-div .my-cart {
+    position: relative;
+}
+.menu-cart-div .my-cart .para-cart-count {
+    position: absolute;
+    right: -20%;
+    top: -20%;
+}
+.menu-cart-div:hover {
+    cursor: pointer;
+}
+/* ----------------- menu-cart-div------------- */
+
+
+/* ------------------ Side Menus Section ------------------- */
+.sidemenu-shaodow {
+    background-color: hsla(0, 0%, 0%, 0.4);
+    height: 100%; 
+    width: 0%; /* 100% */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    transition: .2s;
+}
+.sidemenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;  /* 350px */
+    background-color: white;
+    z-index: 9999; /*1*/
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all .5s;
+}
+.sidemenu .side-top-menus a{
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.sidemenu .side-top-menus a:hover {
+    color: black;
+    background-color: hsla(0, 0%, 0%, 0.1);
+}
+.sidemenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.sidemenu .closebtn:hover {
+    color: gray;
+}   
+.side-bottom-menus {
+    padding: 30px 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.side-bottom-menus .contact-no{
+    text-decoration: none;
+}
+.side-bottom-menus .sode-socials a{
+    color: white;
+    text-decoration: none;
+}
+.side-bottom-menus .sode-socials a:hover span{
+    background-color: #107c27;
+}
+/* ------------- End - Side Menus Section ------------------ */
+
+
+/* ------------------ Side Search Section ------------------- */
+.side-search-shaodow {
+    background-color: hsla(0, 0%, 0%, 0.4);
+    height: 100%; 
+    width: 0%; /* 100% */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: .2s;
+}
+.side-search {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 500px;  /* 500px */
+    background-color: white;
+    z-index: 9999; /*1*/
+    padding-top: 90px;
+    overflow-x: hidden;
+    transition: all .5s;
+    transform: translate(110%, 0); /*translate(0%, 0)*/
+}
+.side-search .side-search-body {
+    position: fixed;
+    top: 92px;
+    bottom: 8px;
+    right: 0;
+    width: 100%; /* 500px */
+    z-index: 10001; /*1*/
+    overflow-x: hidden;
+    transition: all .5s;
+}
+.side-search .side-search-body .searched-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.side-search .side-search-body .searched-list .searched-items {
+    background-color: rgb(245, 243, 243);
+    box-shadow: 0px 1px 2px gray;
+}
+.side-search-body .searched-list .searched-items .my-row .image-div img {
+    width: 120px;
+    height: 91.5px;
+}
+.side-search .side-search-body .searched-list .searched-items:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+.side-search .side-search-body .searched-list .searched-items a:hover {
+    text-decoration: none;
+}
+.side-search .side-search-body .searched-list .searched-items:hover > .my-row .text-div .card-body .item-title {
+    color: #218838;
+}
+.card-body .cart-div .item-add-to-card {
+    z-index: 11;
+}
+.side-search .top-options {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    right: 25px;
+}
+.side-search .top-options .t-options .close-btn-side-search {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #19A638;
+}
+.side-search .top-options .t-options .close-btn-side-search:hover > .txt {
+    color: #107c27;
+}
+.side-search .top-options .form-inline .search-items{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+/* ------------- End - Side Search Section ------------------ */
+
+
+/* ------------------ Categories Section ------------------- */
+.categories-section {
+    background-color: rgb(245, 245, 245);
+}
+.categories-section .my-container .container-inner .all-cate {
+    width: 8%;
+}
+.categories-section .my-container .container-inner .show-cate {
+    width: 92%;
+}
+.all-cate .m-item {
+    color: rgb(99, 98, 98);
+    text-decoration: none;
+}
+.home-carousel .item .owl-carousel-anchor {
+    color: rgb(99, 98, 98);
+}
+.home-carousel .item .owl-carousel-anchor:hover {
+    text-decoration: none;
+    color: black;
+}
+/* ------------- End - Categories Section ------------------ */
+
+
+
+
+/* ------------------ Side Categories Section ------------------- */
+.side-cat-shaodow {
+    background-color: hsla(0, 0%, 0%, 0.4);
+    height: 100%; 
+    width: 0%; /* 100% */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: .2s;
+}
+.side-cat-menus {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 500px;  /* 500px */
+    background-color: white;
+    z-index: 9999; /*1*/
+    padding-top: 75px;
+    overflow-x: hidden;
+    transition: all .5s;
+    transform: translate(110%, 0); /*translate(0%, 0)*/
+}
+.side-cat-menus .side-all-categories {
+    position: fixed;
+    top: 72px;
+    bottom: 8px;
+    right: 0;
+    width: 100%; /* 500px */
+    z-index: 10001; /*1*/
+    overflow-x: hidden;
+    transition: all .5s;
+}
+.side-cat-menus .side-all-categories .row {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.side-cat-menus .top-options {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+}
+.side-cat-menus .top-options .close-btn-side-cat {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #19A638;
+}
+.side-cat-menus .close-btn-side-cat:hover > .txt {
+    color: #107c27;
+}
+.side-all-categories .row .col-3 .col-inner {
+    background-color: rgb(243, 240, 240);
+    padding: 10px 0;
+    min-height: 100px;
+    box-shadow: 1px 1px 2px gray;
+}
+.side-all-categories .row .col-3 .col-inner:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+.side-all-categories .row .col-3 .col-inner .side-cat-anchor {
+    color: black;
+}
+.side-all-categories .row .col-3 .col-inner .side-cat-anchor:hover {
+    text-decoration: none;
+    color: black;
+}
+.side-all-categories .row .col-3 .col-inner .side-cat-anchor p{
+    color: #19A638;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+/* ------------- End - Side Categories Section ------------------ */
+
+
+
+/* ----------------------- Slider Section ------------------------ */
+.slider-section {
+    background-color: rgb(243, 240, 240);
+}
+.slider-section .carousel .carousel-indicators {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.slider-section .carousel .carousel-inner img{
+    height: 380px;
+}
+/* ------------------ End - Slider Section ----------------------- */
+
+
+
+/* ----------------------- Products Listed Section ------------------------ */
+.products-listed-sect {
+    margin-top: 60px;
+}
+.products-listed-sect .my-container .list-top-title a {
+    color: #19A638;
+    text-decoration: none;
+    margin: 5px 0px;
+    border: 1px solid #19A638;
+}
+.products-listed-sect .my-container .list-top-title a:hover {
+    color: #218838;
+}
+.owl-products-list .my-item:hover {
+    box-shadow: 1px 1px 6px #888888;
+}
+.owl-products-list .my-item .card a {
+    text-decoration: none;
+}
+.owl-products-list .my-item .card a .card-img-top .product-image {
+    height: 170px; /*160px*/
+}
+.owl-products-list .my-item .card a .card-img-top .card-img-overlay {
+    background-color: hsla(45, 100%, 51%, 0.4);
+    z-index: 7;
+}
+.owl-products-list .my-item .card a .card-img-top .card-img-overlay .overlay-inner .cart-product-count {
+    min-height: 20px;
+    min-width: 20px;
+    /* background: linear-gradient(orange, red); */
+    background-color: hsla(354, 70%, 54%, 0.8);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    /* text-align: center; */
+    /* margin: 5px 20px; */
+    font-size: 15px;
+    /* padding: 15px; */
+    display: flex;
+    color: rgba(255, 255, 255, 0.9);
+} 
+.owl-products-list .my-item .card a .card-img-top .card-img-overlay .overlay-inner .msg {
+    color: rgba(255, 255, 255, 0.9);
+}
+.owl-products-list .my-item .card a .card-body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.owl-products-list .my-item .card a .card-body .offer-btn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 3px 5px;
+}
+.owl-products-list .my-item .card a .card-body .item-title {
+    font-weight: 400;
+    font-size: 15px;
+
+    /* This will allow text in one line */
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.owl-products-list .my-item .card a .card-body .price-div {
+    font-weight: 500;
+    font-size: 15px;
+}
+.owl-products-list .my-item .card a .card-body .full-price-div .item-offer-cross-price {
+    font-size: 15px;
+}
+.owl-products-list .my-item .card a .card-body .full-price-div {
+    font-weight: 300;
+    text-decoration: line-through;
+    text-decoration-color: #dc3545;
+}
+/* ------------------ End - Products Listed Section ----------------------- */
+
+
+/* ----------------------- Featured Categories Section ------------------------ */
+.featured-categories-sect {
+    margin-top: 50px;
+}
+.featured-categories-sect .my-container .top-title a {
+    color: #19A638;
+    text-decoration: none;
+    margin: 5px 0px;
+    border: 1px solid #19A638;
+}
+.featured-categories-sect .my-container .top-title a:hover {
+    color: #218838;
+}
+.featured-categories-sect .featured-cat-body {
+    /* flex-wrap: wrap - When 100% is achieved, it will move towards second line. */
+    flex-wrap: wrap; 
+}
+.featured-categories-sect .featured-cat-body .f-c-items {
+    width: 16.66%;
+    height: 140px;
+    border-top: 1px solid rgb(184, 184, 184);
+    border-left: 1px solid rgb(184, 184, 184);
+    box-shadow: 1px 1px 2px rgb(184, 184, 184);
+}
+.featured-categories-sect .featured-cat-body .f-c-items:hover {
+    box-shadow: 2px 2px 7px rgb(153, 152, 152);
+    text-decoration: none;
+}
+/* ------------------ End - Featured Categories Section ----------------------- */
+
+
+/* ----------------------- Brands Section ------------------------ */
+.brands-section {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.brands-section .my-container .top-title a {
+    color: #19A638;
+    text-decoration: none;
+    margin: 5px 0px;
+    border: 1px solid #19A638;
+}
+.brands-section .my-container .top-title a:hover {
+    color: #218838;
+}
+.brands-section .my-container .brands-logs-div {
+    /* flex-wrap: wrap - When 100% is achieved, it will move towards second line. */
+    flex-wrap: wrap; 
+}
+.brands-section .my-container .brands-logs-div .brand-item {
+    width: 16.66%;
+    height: 150px;
+    border: 1px solid rgb(223, 220, 220);
+    box-shadow: 1px 1px 3px rgb(212, 212, 212);
+ }
+ .brands-section .my-container .brands-logs-div .brand-item:hover {
+    box-shadow: 1px 1px 9px rgb(129, 127, 127);
+ }
+.brands-section .my-container .brands-logs-div .brand-item a img {
+    max-width: 100px;
+    max-height: 100px;
+}
+/* ------------------ End - Brands Section ----------------------- */
+
+
+/* -----------------------  Side Brands Section ------------------------ */
+.side-brands-shaodow {
+    background-color: hsla(0, 0%, 0%, 0.4);
+    height: 100%; 
+    width: 0%; /* 100% */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: .2s;
+}
+.side-brands-menus {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 500px;  /* 500px */
+    background-color: white;
+    z-index: 9999; /*1*/
+    padding-top: 75px;
+    overflow-x: hidden;
+    transition: all .5s;
+    transform: translate(110%, 0); /*translate(0%, 0)*/
+}
+.side-brands-menus .side-all-brands {
+    position: fixed;
+    top: 72px;
+    bottom: 8px;
+    right: 0;
+    width: 100%; /* 500px */
+    z-index: 10001; /*1*/
+    overflow-x: hidden;
+    transition: all .5s;
+}
+.side-brands-menus .top-options {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+}
+.side-brands-menus .top-options .close-btn-side-cat {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #19A638;
+}
+.side-brands-menus .close-btn-side-cat:hover > .txt {
+    color: #107c27;
+}
+.side-brands-menus .side-all-brands .row {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.side-brands-menus .side-all-brands .row .col-3 .col-inner {
+    background-color: white;
+    padding: 10px 0;
+    min-height: 100px;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-left: 1px solid rgb(224, 224, 224);
+    box-shadow: 1px 1px 2px gray;
+}
+.side-brands-menus .side-all-brands .row .col-3 .col-inner {
+    height: 100px;
+}
+.side-brands-menus .side-all-brands .row .col-3 .col-inner:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+.side-brands-menus .side-all-brands .row .col-3 .col-inner a {
+    text-decoration: none;
+}
+.side-brands-menus .side-all-brands .row .col-3 .col-inner a img {
+    max-width: 90px;
+    max-height: 90px;
+}
+/* ------------------ End - Side Brands Section ----------------------- */
+
+
+/* --------------------  Footer Section -------------------------- */
+.footer-section {
+    margin-top: 60px;
+}
+.footer-section .upper-footer {
+    background-color: #ECECEC;
+    padding: 10px 0;
+}
+.footer-section .upper-footer .my-container .con-inner .footer-logos .foot-logo-img {
+    width: 120px;
+    height: 45px;
+}
+.footer-section .upper-footer .my-container .con-inner .footer-socials a {
+    text-decoration: none;
+}
+.footer-section .bottom-footer {
+    background-color: #DFDFDF;
+    padding: 25px 0;
+}
+.footer-section .bottom-footer .my-container .con-inner .foot-logo img {
+    width: 110px;
+    height: 55px;
+}
+.footer-contact-sect .cotnact-box {
+    box-shadow: 2px 2px 7px gray;
+    position: absolute;
+    right: 15px;
+}
+.footer-contact-sect .cotnact-box .card-header {
+    background-color: #128C7E;
+}
+.footer-contact-sect .cotnact-box .card-header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.775);
+}
+.footer-contact-sect .cotnact-box .card-header a:hover {
+    color: black;
+}
+.footer-contact-sect .cotnact-box .card-body {
+    background-color: #E5DDD5;
+}
+/* ------------------ End - Footer Section ----------------------- */
+
+
+/* --------------------  Breadcrumb Section -------------------------- */
+.breadcrumb-section .my-container .breadcrumb-nav .breadcrumb .breadcrumb-item a{
+    color: #19A638;
+    text-decoration: none;
+}
+/* ------------------ End - Breadcrumb Section ----------------------- */
+
+
+/* --------------------  Item-View Section -------------------------- */
+.item-view-section {
+    margin-bottom: 10px;
+}
+.item-view-section .my-container .row .col-md-4 {
+    margin-bottom: 10px;
+}
+.item-view-section .my-container .row .col-md-4 .col-inner .item-view-image {
+    width: 100%!important;
+    height: 280px;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .rating-list .rate-star {
+    color: rgb(189, 189, 189)!important;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .rating-list  .rate-star-number {
+    color: rgb(189, 189, 189)!important;
+    margin-left: 5px;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .rating-list  .rate-star-number::before {
+    content: "(";
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .rating-list  .rate-star-number::after {
+    content: ")";
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .item-price {
+    font-size: 22px;
+    font-weight: 500;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .item-price::before {
+    content: "Rs.";
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .item-measure {
+    font-size: 16px;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .add-to-cart-section {
+    display: inline-block;
+    border-top: 1px solid rgb(187, 187, 187);
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .add-to-cart-section .my-btn {
+    height: 40px;
+    padding: 4px 10px;
+    color: white;
+    background-color: #19A638;
+    border: none;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .add-to-cart-section .my-btn:hover {
+    background-color: #218838;
+    cursor: pointer;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .add-to-cart-section .product-cart-count {
+    height: 40px;
+    padding: 6px 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .customer-reviews-sect .card {
+    border: 1px solid rgb(185, 185, 185);
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .customer-reviews-sect .card .card-header {
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .customer-reviews-sect .card .card-header {
+    cursor: pointer;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .customer-reviews-sect .card .card-header .card-inn span {
+    text-decoration: none;
+}
+.item-view-section .my-container .row .col-md-8 .col-inner .customer-reviews-sect .card .card-header .card-inn .reviews-toggle-ico {
+    position: absolute;
+    right: 25px;
+    transform: translate(0, -8%);
+    transition: all 0.5s;
+    display: block;
+}
+/* ------------------ End - Item-View Section ----------------------- */
+
+
+/* --------------------  Related-Products Section -------------------------- */
+.related-products-section {
+    margin-top: 60px;
+}
+.products-listed-sect .my-container .list-top-title a {
+    color: #19A638;
+    text-decoration: none;
+    margin: 5px 0px;
+    border: 1px solid #19A638;
+}
+.products-listed-sect .my-container .list-top-title a:hover {
+    color: #218838;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner:hover {
+    box-shadow: 1px 1px 6px #888888;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a {
+    text-decoration: none;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-img-top img {
+    height: 200px;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-img-top .card-img-overlay {
+    background-color: hsla(45, 100%, 51%, 0.4);
+    z-index: 7;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-img-top .card-img-overlay .overlay-inner .cart-product-count {
+    min-height: 20px;
+    min-width: 20px;
+    /* background: linear-gradient(orange, red); */
+    background-color: hsla(354, 70%, 54%, 0.8);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    /* text-align: center; */
+    /* margin: 5px 20px; */
+    font-size: 15px;
+    /* padding: 15px; */
+    display: flex;
+    color: rgba(255, 255, 255, 0.9);
+} 
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-img-top .card-img-overlay .overlay-inner .msg {
+    color: rgba(255, 255, 255, 0.9);
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-body .offer-btn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 3px 5px;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-body .item-title {
+    font-weight: 400;
+    font-size: 15px;
+
+    /* This will allow text in one line */
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-body .price-div {
+    font-weight: 500;
+    font-size: 15px;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-body .full-price-div .item-offer-cross-price {
+    font-size: 15px;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card a .card-body .full-price-div {
+    font-weight: 300;
+    text-decoration: line-through;
+    text-decoration-color: #dc3545;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card .add-to-cart-section {
+    /* display: inline-block; */
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card .add-to-cart-section .my-btn {
+    height: 35px;
+    padding: 2px 8px;
+    color: white;
+    border: none;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card .add-to-cart-section .btn-item-add {
+    background-color: #19A638;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card .add-to-cart-section .btn-item-add:hover {
+    background-color: #218838;
+    cursor: pointer;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card .add-to-cart-section .btn-item-remove {
+    background-color: white;
+    border: 1px solid rgb(83, 83, 83);
+    color: rgb(68, 68, 68);
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card .add-to-cart-section .btn-item-remove:hover {
+    background-color: white;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+.related-products-section .my-container .row .col-md-4 .col-inner .card .add-to-cart-section .product-cart-count {
+    height: 35px;
+    padding: 4px 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* ------------------ End - Related-Products Section ----------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+

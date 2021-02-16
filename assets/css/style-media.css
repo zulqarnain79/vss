@@ -1,0 +1,236 @@
+.desk-show {
+  display: block !important;
+}
+.desk-hide {
+  display: none !important;
+}
+
+.my-container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .mb-show {
+    display: block !important;
+  }
+  .mb-hide {
+    display: none !important;
+  }
+  /* ------------------ Menus Section ------------------- */
+  .menus-section {
+    background-color: #19a638;
+  }
+  .menus-section .my-container .navbar {
+    background-color: #19a638 !important;
+  }
+  .menus-section .my-container .navbar .nav-logo a span {
+    color: white;
+  }
+  .menus-section .my-container .navbar .collapse .menu-cart-div .my-cart span {
+    color: white;
+  }
+  .menus-section
+    .my-container
+    .navbar
+    .collapse
+    .menu-cart-div
+    .cart-price
+    span {
+    background-color: white;
+    color: #19a638;
+  }
+  /* ------------- End - Menus Section ------------------ */
+
+  /* ------------------- Side Search Section -------------------- */
+  .side-search {
+    width: 100% !important;
+  }
+  /* --------------- End - Side Search Section ----------------- */
+
+  /* ------------------- Side Categories Section -------------------- */
+  .side-cat-menus {
+    width: 100% !important;
+  }
+  /* --------------- End - Side Categories Section ----------------- */
+
+  /* ---------------------- Side Brands Section ------------------------- */
+  .side-brands-menus {
+    width: 100% !important;
+  }
+  /* ------------------ End - Side Brands Section ----------------------- */
+
+  /* ----------------------- Products Listed Section ------------------------ */
+  .owl-products-list .my-item .card a img {
+    height: 140px;
+  }
+  .owl-products-list .my-item .card a .card-body .offer-btn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 3px 5px;
+  }
+  .owl-products-list .my-item .card a .card-body .item-title {
+    font-size: 14px;
+    font-weight: 450;
+  }
+  .owl-products-list .my-item .card a .card-body .price-div {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .owl-products-list
+    .my-item
+    .card
+    a
+    .card-body
+    .full-price-div
+    .item-offer-cross-price {
+    font-size: 14px;
+  }
+  .owl-products-list .my-item .card .b-seller-add-to-cart-btn {
+    margin: 0 !important;
+    padding: 4px 0px !important;
+  }
+  /* ------------------ End - Products Listed Section ----------------------- */
+
+  /* ----------------------- Featured Categories Section ------------------------ */
+  .featured-categories-sect {
+    margin-top: 50px;
+  }
+  .featured-categories-sect .featured-cat-body .f-c-items {
+    width: 33.33%!important;
+    height: 140px!important;
+  }
+  /* ------------------ End - Featured Categories Section ----------------------- */
+
+  /* ----------------------- Brands Section ------------------------ */
+  .brands-section {
+    margin-top: 40px;
+  }
+  .brands-section .my-container .brands-logs-div .brand-item {
+    width: 33.33% !important;
+    height: 150px;
+  }
+  /* ------------------ End - Brands Section ----------------------- */
+
+  /* --------------------  Related-Products Section -------------------------- */
+  .related-products-section .my-container .row .col-md-4 .col-inner .card .add-to-cart-section {
+    /* display: inline-block; */
+    position: absolute!important;
+    bottom: 6px;
+    right: 6px;
+  }
+  .item-view-section .my-container .row .col-md-4 .col-inner .item-view-image {
+    width: 100%!important;
+    height: 200px!important;
+  }
+  /* ------------------ End - Related-Products Section ----------------------- */
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  .ph-medium-show {
+    display: block !important;
+  }
+  .ph-medium-hide {
+    display: none !important;
+  }
+  /* ------------------ Categories Section ------------------- */
+  .categories-section {
+    background-color: rgb(245, 245, 245);
+  }
+  .categories-section .my-container .container-inner .all-cate {
+    width: 22%;
+  }
+  .categories-section .my-container .container-inner .show-cate {
+    width: 78%;
+  }
+  .categories-section .my-container .container-inner .show-cate .cate-mobi {
+    display: flex;
+  }
+  .categories-section .my-container .container-inner .show-cate .item a {
+    color: rgb(99, 98, 98);
+    text-decoration: none;
+  }
+  .categories-section .my-container .container-inner .show-cate .item a:hover {
+    color: black;
+  }
+  /* ------------- End - Categories Section ------------------ */
+
+  /* ----------------------- Brands Section ------------------------ */
+  .brands-section .my-container .brands-logs-div .brand-item {
+    width: 25%;
+    height: 150px;
+  }
+  /* ------------------ End - Brands Section ----------------------- */
+
+  /* --------------------  Footer Section Section -------------------------- */
+  .footer-section {
+    margin-top: 60px;
+  }
+  .footer-section .upper-footer {
+      background-color: #ECECEC;
+      padding: 10px 0;
+  }
+  .footer-section .upper-footer .my-container .con-inner {
+      display: block!important;
+  }
+  .footer-section .upper-footer .my-container .con-inner .footer-logos {
+      text-align: center;
+      margin-top: 8px;
+  }
+  .footer-section .upper-footer .my-container .con-inner .footer-logos .foot-logo-img {
+      width: 95px!important;
+      height: 40px!important;
+  }
+  .footer-section .upper-footer .my-container .con-inner .footer-socials {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid rgb(187, 186, 186);
+  }
+  /* ------------------ End - Footer Section Section ----------------------- */
+
+  /* --------------------  Related-Products Section -------------------------- */
+  .item-view-section .my-container .row .col-md-4 .col-inner .item-view-image {
+    width: 100%!important;
+    height: 400px!important;
+  }
+  /* ------------------ End - Related-Products Section ----------------------- */
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+  .tab-show {
+    display: block !important;
+  }
+  .tab-hide {
+    display: none !important;
+  }
+  .my-container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  /* --------------------  Related-Products Section -------------------------- */
+  .related-products-section .my-container .row .col-md-4 .col-inner .card a .card-img-top img {
+    height: 150px;
+  }
+  .related-products-section .my-container .row .col-md-4 .col-inner .card .add-to-cart-section {
+    /* display: block; */
+    position: static;
+    text-align: right;
+    margin: 6px;
+  }
+  /* ------------------ End - Related-Products Section ----------------------- */
+
+  /* --------------------  Related-Products Section -------------------------- */
+  .item-view-section .my-container .row .col-md-4 .col-inner .item-view-image {
+    width: 100%!important;
+    height: 200px;
+  }
+  /* ------------------ End - Related-Products Section ----------------------- */
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+}
