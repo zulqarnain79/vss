@@ -1,11 +1,22 @@
 /* ------------------ Menus Section ------------------- */
 .menus-section {
     background-color: white;
+    height: 72px;
 }
-.menus-section .my-container .navbar {
+.menus-section .menu-sect-inn {
+    background-color: white;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+}
+.menus-section .menu-sect-inn .navbar {
     background-color: white!important;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-.menus-section .my-container .navbar .nav-logo .navbar-brand img {
+.menus-section .menu-sect-inn .navbar .nav-logo .navbar-brand img {
     width: 120px;
     height: 62px;
 }

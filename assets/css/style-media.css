@@ -20,19 +20,22 @@
   }
   /* ------------------ Menus Section ------------------- */
   .menus-section {
-    background-color: #19a638;
+    background-color: #19a638!important;
   }
-  .menus-section .my-container .navbar {
+  .menus-section .menu-sect-inn  {
+    background-color: #19a638!important;
+  }
+  .menus-section .menu-sect-inn .navbar {
     background-color: #19a638 !important;
   }
-  .menus-section .my-container .navbar .nav-logo a span {
+  .menus-section .menu-sect-inn .navbar .nav-logo a span {
     color: white;
   }
-  .menus-section .my-container .navbar .collapse .menu-cart-div .my-cart span {
+  .menus-section .menu-sect-inn .navbar .collapse .menu-cart-div .my-cart span {
     color: white;
   }
   .menus-section
-    .my-container
+    .menu-sect-inn
     .navbar
     .collapse
     .menu-cart-div

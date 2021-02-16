@@ -1,7 +1,7 @@
 <!-- ********** Menus-Section ********** -->
 <div class="menus-section">
-    <div class="my-container">
-        <nav class="navbar navbar-expand-lg navbar-light     bg-light p-0">
+    <div class="menu-sect-inn">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
             <div class="nav-logo d-flex align-items-center justify-content-center">
                 <a class="navbar-brand m-auto" href="#" onclick="openSideMenu()">
                     <!-- &#9776; = Menus-Icon -->
