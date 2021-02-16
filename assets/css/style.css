@@ -379,6 +379,49 @@ body {
     text-decoration: line-through;
     text-decoration-color: #dc3545;
 }
+.owl-products-list .my-item .card .add-to-cart-div {
+    text-align: center;
+}
+.owl-products-list .my-item .card .add-to-cart-div .add-to-cart-btn {
+    height: 35px;
+}
+.owl-products-list .my-item .card .add-to-cart-div .add-to-cart-add-remove .add-to-cart-inner .my-btn {
+    height: 35px;
+    width: 18%;
+    /* padding: 2px 8px; */
+    text-align: center;
+    align-items: center;
+    color: white;
+    border: none;
+}
+.owl-products-list .my-item .card .add-to-cart-div .add-to-cart-add-remove .add-to-cart-inner .btn-item-add {
+    background-color: #19A638;
+}
+.owl-products-list .my-item .card .add-to-cart-div .add-to-cart-add-remove .add-to-cart-inner .btn-item-add:hover {
+    background-color: #218838;
+    cursor: pointer;
+}
+.owl-products-list .my-item .card .add-to-cart-div .add-to-cart-add-remove .add-to-cart-inner .btn-item-remove {
+    background-color: white;
+    border: 1px solid rgb(160, 160, 160);
+    color: rgb(134, 134, 134);
+}
+.owl-products-list .my-item .card .add-to-cart-div .add-to-cart-add-remove .add-to-cart-inner .btn-item-remove:hover {
+    background-color: white;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+.owl-products-list .my-item .card .add-to-cart-div .add-to-cart-add-remove .add-to-cart-inner .product-cart-count {
+    height: 35px!important;
+    width: 35%!important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 5px!important;
+    margin-right: 5px!important;
+    font-size: 15px;
+    border: 1px solid rgb(196, 194, 194);
+
+}
 /* ------------------ End - Products Listed Section ----------------------- */
 
 

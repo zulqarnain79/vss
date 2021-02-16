@@ -122,12 +122,17 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button>
-                        <!-- /.b-seller-add-to-cart-btn -->
-                        <div class="add-to-cart-div">
-                            
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: none!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: block!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
                         </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
@@ -162,9 +167,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -198,15 +212,24 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
                     <div class="card">
                         <a href="#">
-                        <!-- Image of Product -->
+                            <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-oil-ghee-dalda.jpg" class="card-img" alt="..."><!-- /.product-image -->
                                 <div class="card-img-overlay py-2 d-flex align-items-center" style="display: none!important;">
@@ -234,9 +257,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -270,15 +302,24 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
                     <div class="card">
                         <a href="#">
-                        <!-- Image of Product -->
+                            <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-oil-ghee-dalda.jpg" class="card-img" alt="..."><!-- /.product-image -->
                                 <div class="card-img-overlay py-2 d-flex align-items-center" style="display: none!important;">
@@ -306,9 +347,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -342,15 +392,24 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
                     <div class="card">
                         <a href="#">
-                        <!-- Image of Product -->
+                            <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-oil-ghee-dalda.jpg" class="card-img" alt="..."><!-- /.product-image -->
                                 <div class="card-img-overlay py-2 d-flex align-items-center" style="display: none!important;">
@@ -378,9 +437,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -414,15 +482,24 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
                     <div class="card">
                         <a href="#">
-                        <!-- Image of Product -->
+                            <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-oil-ghee-dalda.jpg" class="card-img" alt="..."><!-- /.product-image -->
                                 <div class="card-img-overlay py-2 d-flex align-items-center" style="display: none!important;">
@@ -450,9 +527,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
             </div><!-- /.owl-carousel /.owl-products-list -->
@@ -586,9 +672,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: none!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: block!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -622,9 +717,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -658,9 +762,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
@@ -694,9 +807,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -730,9 +852,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
             </div><!-- /.owl-carousel /.owl-products-list -->
@@ -784,9 +915,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -820,9 +960,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: none!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: block!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -856,9 +1005,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
@@ -892,9 +1050,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -928,9 +1095,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
             </div><!-- /.owl-carousel /.owl-products-list -->
@@ -982,9 +1158,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: none!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: block!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1018,9 +1203,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1054,9 +1248,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1090,9 +1293,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1126,9 +1338,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
             </div><!-- /.owl-carousel /.owl-products-list -->
@@ -1270,9 +1491,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1306,9 +1536,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: none!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: block!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1342,9 +1581,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1378,9 +1626,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1414,9 +1671,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
             </div><!-- /.owl-carousel /.owl-products-list -->
@@ -1468,9 +1734,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: none!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: block!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1504,9 +1779,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1540,9 +1824,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1576,9 +1869,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1612,9 +1914,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
             </div><!-- /.owl-carousel /.owl-products-list -->
@@ -1666,9 +1977,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1702,9 +2022,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: none!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: block!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1738,9 +2067,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1774,9 +2112,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1810,9 +2157,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
             </div><!-- /.owl-carousel /.owl-products-list -->
@@ -1864,9 +2220,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: none!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: block!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1900,9 +2265,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1936,9 +2310,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.b-seller-add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -1972,9 +2355,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
@@ -2008,9 +2400,18 @@
                                 </div><!-- /.full-price-div -->
                             </div><!-- card-body -->
                         </a><!-- a -->
-                        <button type="button" class="b-seller-add-to-cart-btn btn btn-success m-1 rounded-0">
-                            <span>Add to Cart</span>
-                        </button><!-- /.add-to-cart-btn -->
+                        <div class="add-to-cart-div p-1">
+                            <button type="button" class="add-to-cart-btn btn w-100 btn-success rounded-0" style="display: block!important;">
+                                <span>Add to Cart</span>
+                            </button> <!-- /.add-to-cart-btn -->
+                            <div class="add-to-cart-add-remove" style="display: none!important;">
+                                <div class="add-to-cart-inner d-flex align-items-center justify-content-center">
+                                    <button class="btn-item-remove my-btn icon-minus rounded-0 font-20 m-0"></button><!-- /.btn-item-remove -->
+                                    <p class="product-cart-count text-center rounded-0 m-0 d-inline-block">0</p> <!-- /.product-cart-count -->
+                                    <button class="btn-item-add my-btn icon-plus font-weight-bold rounded-0 font-20 m-0"></button><!-- /.btn-item-add -->
+                                </div><!-- /.add-to-cart-inner -->
+                            </div><!-- /.add-to-cart-section -->
+                        </div><!-- /.add-to-cart-div -->
                     </div><!-- /.card -->
                 </div><!-- /.my-item -->
             </div><!-- /.owl-carousel /.owl-products-list -->

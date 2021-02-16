@@ -13,7 +13,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
+  /* speak: never; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -191,12 +191,12 @@
 }
 .icon-social-ic-google-plus .path1:before {
   content: "\e91a";
-  color: ;
+  /* color: ; */
 }
 .icon-social-ic-google-plus .path2:before {
   content: "\e91b";
   margin-left: -1em;
-  color: ;
+  /* color: ; */
 }
 .icon-social-ic-instagram:before {
   content: "\e91c";
