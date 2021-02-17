@@ -1,7 +1,19 @@
-// Media Quries
-// Define the query
-const mediaQuery_min600 = window.matchMedia('(min-width: 600px)')
-//----------
+/* --------------- Pre-Loading------------- */
+// $(document).ready(function(){
+    // 	$('div#loading').removeAttr('id');
+// });
+document.getElementById("body").style.overflowY = "hidden";
+var preloader = document.getElementById("preloading");
+// window.addEventListener('load', function(){
+// 	preloader.style.display = 'none';
+// 	})
+
+function pre_Loading(){
+    preloader.style.display = 'none';
+    document.getElementById("body").style.overflowY = "scroll";
+};
+/*------------ End - Pre-Loading-----------  */
+
 
 /* ------------------ Side Menus Section ------------------- */
 function openSideMenu() {

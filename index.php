@@ -20,7 +20,10 @@
     <title>Katvi - Template</title>
 </head>
 
-<body id="body">
+<body id="body" onload="pre_Loading()">
+
+    <!--CSS preloading-->
+    <div id="preloading"></div>
 
     <!-- ********** Menus-Section ********** -->
     <?php
