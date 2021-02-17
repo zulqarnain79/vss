@@ -53,7 +53,7 @@ $('.home-carousel').owlCarousel({
     dots:false,
     responsive: {
         0: {
-            items: 1
+            items: 3
         },
         600: {
             items: 8
@@ -90,7 +90,8 @@ function closeSideCategories() {
 $('.owl-best-seller').owlCarousel({
     loop:true,
     margin:10,
-    nav:false,
+    nav: true,
+    dots:false,
     responsive:{
         0:{
             items:2.2
@@ -123,9 +124,10 @@ function closeSideBrands() {
 
 /* ----------------------- Products Listed Section ------------------------ */
 $('.owl-products-list').owlCarousel({
-    loop:false,
+    loop:true,
     margin:10,
-    nav:false,
+    nav: true,
+    dots:false,
     responsive:{
         0:{
             items:2 //2.2

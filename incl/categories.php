@@ -8,35 +8,7 @@
                     <p class="font-14 m-0">All Categories</p>
                 </a><!-- /.m-item -->
             </div><!-- /.all-cate -->
-            <div class="show-cate desk-hide ph-medium-show p-2">
-                <div class="cate-mobi">
-                    <div class="item text-center mx-1">
-                        <a class="owl-carousel-anchor" href="#">
-                            <span class="icon-vegetables-and-fruits bold font-30"></span>
-                            <p class="font-14 m-0">Vegetables & Fruits</p>
-                        </a>
-                    </div>
-                    <div class="item text-center mx-1">
-                        <a class="owl-carousel-anchor" href="#">
-                            <span class="icon-dry-fruits bold font-30"></span>
-                            <p class="font-14 m-0">Noodles & Spaghettis</p>
-                        </a>
-                    </div>
-                    <div class="item text-center mx-1">
-                        <a class="owl-carousel-anchor" href="#">
-                            <span class="icon-vegetables-and-fruits bold font-30"></span>
-                            <p class="font-14 m-0">Milk Products</p>
-                        </a>
-                    </div>
-                    <div class="item text-center mx-1">
-                        <a class="owl-carousel-anchor" href="#">
-                            <span class="icon-vegetables-and-fruits bold font-30"></span>
-                            <p class="font-14 m-0">Milk Products Filters</p>
-                        </a>
-                    </div>
-                </div><!-- /.cate-mobi -->
-            </div> <!-- /.show-cate  /.desk-hide /.ph-medium-show -->
-            <div class="show-cate p-2 ph-medium-hide">
+            <div class="show-cate p-2">
                 <div class="owl-carousel home-carousel owl-theme">
                     <div class="item text-center">
                         <a class="owl-carousel-anchor" href="#">

@@ -1,3 +1,9 @@
+body {
+    /* outline: 2px solid red; //To check where element is going out of margin */
+    overflow: hidden;
+    overflow-y: auto;
+}
+
 /* ------------------ Menus Section ------------------- */
 .menus-section {
     background-color: white;
@@ -21,12 +27,6 @@
     height: 62px;
 }
 /* ------------- End - Menus Section ------------------ */
-
-body {
-    /* outline: 2px solid red; //To check where element is going out of margin */
-    overflow: hidden;
-    overflow-y: auto;
-}
 
 /* ----------------- menu-cart-div------------- */
 /* ----- For All Cart Buttons  ----- */
@@ -193,6 +193,44 @@ body {
     margin-bottom: 10px;
 }
 /* ------------- End - Side Search Section ------------------ */
+
+
+/* -------------------- Owl-Carousel custom changing -------------------- */
+.owl-theme .owl-nav {
+   position: absolute;
+   top: 50%;
+   left: 0;
+   right: 0;
+   transform: translate(0, -80%);
+   /* background-color: rgba(0, 128, 0, 0.575); */
+   display: flex;
+   justify-content: space-between;
+}
+.owl-carousel .owl-nav button.owl-next {
+    background-color: rgba(83, 83, 83, 0.473)!important;
+    border-radius: 50%;
+    color: white!important;
+}
+.owl-carousel .owl-nav button.owl-next::before, .owl-carousel .owl-nav button.owl-next::after {
+    content: "\00a0";
+    padding-right: 5px; 
+}
+.owl-carousel .owl-nav button.owl-next:hover {
+    color: black!important;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    background-color: rgba(83, 83, 83, 0.473)!important;
+    border-radius: 50%;
+    color: white!important;
+}
+.owl-carousel .owl-nav button.owl-prev::before, .owl-carousel .owl-nav button.owl-prev::after {
+    content: "\00a0";
+    padding-right: 5px; 
+}
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: black!important;
+}
+/* ---------------- End - Owl-Carousel custom changing ------------------ */
 
 
 /* ------------------ Categories Section ------------------- */
