@@ -93,7 +93,7 @@
             <div class="owl-carousel owl-products-list owl-theme mt-3">
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-fruit-orange.jpg" class="card-img" alt="..."><!-- /.product-image -->
@@ -138,7 +138,7 @@
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-oil-ghee-dalda.jpg" class="card-img" alt="..."><!-- /.product-image -->
@@ -183,7 +183,7 @@
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-fruit-orange.jpg" class="card-img" alt="..."><!-- /.product-image -->
@@ -228,7 +228,7 @@
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-oil-ghee-dalda.jpg" class="card-img" alt="..."><!-- /.product-image -->
@@ -273,7 +273,7 @@
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-fruit-orange.jpg" class="card-img" alt="..."><!-- /.product-image -->
@@ -318,7 +318,7 @@
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-oil-ghee-dalda.jpg" class="card-img" alt="..."><!-- /.product-image -->
@@ -363,7 +363,7 @@
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-fruit-orange.jpg" class="card-img" alt="..."><!-- /.product-image -->
@@ -408,7 +408,7 @@
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-oil-ghee-dalda.jpg" class="card-img" alt="..."><!-- /.product-image -->
@@ -453,7 +453,7 @@
                 </div><!-- /.my-item -->
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-fruit-orange.jpg" class="card-img" alt="..."><!-- /.product-image -->
@@ -498,7 +498,7 @@
                 </div><!-- /.my-item-->
                 <div class="my-item mb-2">
                     <div class="card">
-                        <a href="#">
+                        <a href="./item-view.php">
                             <!-- Image of Product -->
                             <div class="card-img-top card bg-dark rounded-0 border-0 text-white">
                                 <img class="product-image rounded-0" src="./assets/img/searched-oil-ghee-dalda.jpg" class="card-img" alt="..."><!-- /.product-image -->
