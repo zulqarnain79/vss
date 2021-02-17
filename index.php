@@ -22,8 +22,13 @@
 
 <body id="body" onload="pre_Loading()">
 
-    <!--CSS preloading-->
-    <div id="preloading"></div>
+    <!-- ********** CSS Preloading ********** -->
+    <!--CSS Preloading-->
+    <div id="preloading" class="preloading">
+        <div id="loading_spinner" class="loading-spinner"></div>
+        <img class="loading-logo" src="./assets/img/logo-pk.png" alt="" style="display: none;">
+    </div><!-- /.preloading -->
+
 
     <!-- ********** Menus-Section ********** -->
     <?php

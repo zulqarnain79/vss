@@ -3,6 +3,7 @@
     // 	$('div#loading').removeAttr('id');
 // });
 document.getElementById("body").style.overflowY = "hidden";
+var loading_spinner = document.getElementById("loading_spinner");
 var preloader = document.getElementById("preloading");
 // window.addEventListener('load', function(){
 // 	preloader.style.display = 'none';
@@ -10,6 +11,7 @@ var preloader = document.getElementById("preloading");
 
 function pre_Loading(){
     preloader.style.display = 'none';
+    loading_spinner.style.display = 'none';
     document.getElementById("body").style.overflowY = "scroll";
 };
 /*------------ End - Pre-Loading-----------  */
