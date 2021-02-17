@@ -20,7 +20,7 @@
                         <span class="icon-search font-18 ml-3 font-weight-bold col-black"></span>
                     </div><!-- /.menu-search-div -->
                 </form>
-                <div class="menu-cart-div ml-3 d-flex align-items-center">
+                <div class="menu-cart-div ml-3 d-flex align-items-center" onclick="openSideFilter()">
                     <div class="my-cart">
                         <span class="icon-cart font-30"></span>
                         <p class="para-cart-count m-0 px-1 rounded-circle col-white d-inline-block font-12" style="background-color: red;">0</p>

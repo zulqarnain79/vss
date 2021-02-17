@@ -7,10 +7,12 @@ const mediaQuery_min600 = window.matchMedia('(min-width: 600px)')
 function openSideMenu() {
     document.getElementById("sidemenu-shaodow").style.width = "100%";
     document.getElementById("menu").style.width = "350px";
+    document.getElementById("body").style.overflowY = "hidden";
 }
 function closeSideMenu() {
     document.getElementById("menu").style.width = "0px";
     document.getElementById("sidemenu-shaodow").style.width = "0%";
+    document.getElementById("body").style.overflowY = "scroll";
 }
 /* ------------- End - Side Menus Section ------------------ */
 
@@ -19,12 +21,28 @@ function closeSideMenu() {
 function openSideSearch() {
     document.getElementById("side-search-shaodow").style.width = "100%";
     document.getElementById("side-search").style.transform = "translate(0%, 0)";
+    document.getElementById("body").style.overflowY = "hidden";
 }
 function closeSideSearch() {
     document.getElementById("side-search-shaodow").style.width = "0%";
     document.getElementById("side-search").style.transform = "translate(110%, 0)";
+    document.getElementById("body").style.overflowY = "scroll";
 }
 /* ------------- End - Side Search Section ------------------ */
+
+
+/* ------------------ Side Filter Section ------------------- */
+function openSideFilter() {
+    document.getElementById("side-filter-shaodow").style.width = "100%";
+    document.getElementById("side-filter").style.transform = "translate(0%, 0)";
+    document.getElementById("body").style.overflowY = "hidden";
+}
+function closeSideFilter() {
+    document.getElementById("side-filter-shaodow").style.width = "0%";
+    document.getElementById("side-filter").style.transform = "translate(-110%, 0)";
+    document.getElementById("body").style.overflowY = "scroll";
+}
+/* ------------- End - Side Filter Section ------------------ */
 
 
 /* ------------------ Categories Section ------------------- */
@@ -52,10 +70,12 @@ $('.home-carousel').owlCarousel({
 function openSideCategories() {
     document.getElementById("side-cat-shaodow").style.width = "100%";
     document.getElementById("side-cat-menus").style.transform = "translate(0%, 0)";
+    document.getElementById("body").style.overflowY = "hidden";
 }
 function closeSideCategories() {
     document.getElementById("side-cat-shaodow").style.width = "0%";
     document.getElementById("side-cat-menus").style.transform = "translate(110%, 0)";
+    document.getElementById("body").style.overflowY = "scroll";
 }
 // if (mediaQuery_max600.matches <= '600px') {
 //     // Then trigger an alert
@@ -90,10 +110,12 @@ $('.owl-best-seller').owlCarousel({
 function openSideBrands() {
     document.getElementById("side-brands-shadow").style.width = "100%";
     document.getElementById("side-brands-menus").style.transform = "translate(0%, 0)";
+    document.getElementById("body").style.overflowY = "hidden";
 }
 function closeSideBrands() {
     document.getElementById("side-brands-shadow").style.width = "0%";
     document.getElementById("side-brands-menus").style.transform = "translate(110%, 0)";
+    document.getElementById("body").style.overflowY = "scroll";
 }
 /* ------------------ End - Side Brands Section ----------------------- */
 

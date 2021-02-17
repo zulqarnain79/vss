@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 9999999;
+    z-index: 999;
 }
 .menus-section .menu-sect-inn .navbar {
     background-color: white!important;
@@ -170,7 +170,7 @@ body {
 .side-search .side-search-body .searched-list .searched-items:hover > .my-row .text-div .card-body .item-title {
     color: #218838;
 }
-.card-body .cart-div .item-add-to-card {
+.my-row .text-div .card-body .cart-div .item-add-to-card {
     z-index: 11;
 }
 .side-search .top-options {
@@ -217,8 +217,6 @@ body {
     color: black;
 }
 /* ------------- End - Categories Section ------------------ */
-
-
 
 
 /* ------------------ Side Categories Section ------------------- */
@@ -313,6 +311,81 @@ body {
 }
 /* ------------------ End - Slider Section ----------------------- */
 
+
+/* ------------------ Side Filter Section ------------------- */
+.side-filter-shaodow {
+    background-color: hsla(0, 0%, 0%, 0.4);
+    height: 100%; 
+    width: 0%; /* 100% */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    transition: .2s;
+}
+.side-filter {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 500px;  /* 500px */
+    background-color: white;
+    z-index: 9999; /*1*/
+    padding-top: 90px;
+    overflow-x: hidden;
+    transition: all .5s;
+    transform: translate(-110%, 0); /*translate(0%, 0)*/
+}
+.side-filter .side-filter-body {
+    position: fixed;
+    top: 92px;
+    bottom: 42px;
+    right: 0;
+    width: 100%; /* 500px */
+    z-index: 10001; /*1*/
+    overflow-x: hidden;
+    transition: all .5s;
+}
+.side-filter .side-filter-body .filter-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.side-filter-body .filter-list .jumbotron {
+    background-color: rgba(212, 212, 212, 0.2);
+}
+.side-filter .top-options {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    right: 25px;
+}
+.side-filter .top-options .t-options .close-btn-side-search {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #19A638;
+}
+.side-filter .top-options .t-options .close-btn-side-search:hover > .txt {
+    color: #107c27;
+}
+.side-filter .top-options .clear-all-filters {
+    color: #dc3545;
+}
+.side-filter .top-options .clear-all-filters:hover > .txt {
+    color: #f7283d;
+}
+.side-filter .top-options .clear-all-filters:hover > .ico {
+    color: #f7283d;
+}
+.side-filter .btn-apply-filters {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+/* ------------- End - Side Filter Section ------------------ */
 
 
 /* ----------------------- Products Listed Section ------------------------ */

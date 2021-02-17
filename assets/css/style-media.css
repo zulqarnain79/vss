@@ -52,6 +52,12 @@
   }
   /* --------------- End - Side Search Section ----------------- */
 
+  /* ------------------- Side Filter Section -------------------- */
+  .side-filter {
+    width: 75% !important;
+  }
+  /* --------------- End - Side Filter Section ----------------- */
+
   /* ------------------- Side Categories Section -------------------- */
   .side-cat-menus {
     width: 100% !important;

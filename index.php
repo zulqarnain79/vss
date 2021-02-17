@@ -20,7 +20,7 @@
     <title>Katvi - Template</title>
 </head>
 
-<body>
+<body id="body">
 
     <!-- ********** Menus-Section ********** -->
     <?php
@@ -2418,6 +2418,11 @@
         </div><!-- /.my-container -->
     </div><!-- /.products-listed-sect -->
 
+
+    <!-- ****************** Filter-Section ******************* -->
+    <?php
+    include './incl/side-filters.php';
+    ?>
 
     <!-- ****************** Footer-Section ******************* -->
     <?php
