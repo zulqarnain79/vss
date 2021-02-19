@@ -94,7 +94,7 @@
                 <!-- Title of the Listed Products -->
                 <h2 class="title-of-p-list font-weight-normal m-0 d-inline-block">Best Seller</h2><!-- /.title-of-p-list -->
                 <!-- View all the products, which we listed here. -->
-                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="#">
+                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="./view-all-products.php">
                     <Span class="font-12 ml-1 mr-1">See All</Span> <span class="icon-right-arrow font-12 ml-1 m-auto"></span>
                 </a><!-- /.btn-view-all -->
             </div><!-- /.list-top-title -->
@@ -644,7 +644,7 @@
                 <!-- Title of the Listed Products -->
                 <h2 class="title-of-p-list font-weight-normal m-0 d-inline-block">Vegetables</h2><!-- /.title-of-p-list -->
                 <!-- View all the products, which we listed here. -->
-                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="#">
+                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="./view-all-products.php">
                     <Span class="font-12 ml-1 mr-1">All Vegetables</Span> <span class="icon-right-arrow font-12 ml-1 m-auto"></span>
                 </a><!-- /.btn-view-all -->
             </div><!-- /.list-top-title -->
@@ -887,7 +887,7 @@
                 <!-- Title of the Listed Products -->
                 <h2 class="title-of-p-list font-weight-normal m-0 d-inline-block">Fresh Fruits</h2><!-- /.title-of-p-list -->
                 <!-- View all the products, which we listed here. -->
-                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="#">
+                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="./view-all-products.php">
                     <Span class="font-12 ml-1 mr-1">All Fresh Fruit</Span> <span class="icon-right-arrow font-12 ml-1 m-auto"></span>
                 </a><!-- /.btn-view-all -->
             </div><!-- /.list-top-title -->
@@ -1130,7 +1130,7 @@
                 <!-- Title of the Listed Products -->
                 <h2 class="title-of-p-list font-weight-normal m-0 d-inline-block">Fresh Meat</h2><!-- /.title-of-p-list -->
                 <!-- View all the products, which we listed here. -->
-                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="#">
+                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="./view-all-products.php">
                     <Span class="font-12 ml-1 mr-1">All Fresh Meat</Span> <span class="icon-right-arrow font-12 ml-1 m-auto"></span>
                 </a><!-- /.btn-view-all -->
             </div><!-- /.list-top-title -->
@@ -1463,7 +1463,7 @@
                 <!-- Title of the Listed Products -->
                 <h2 class="title-of-p-list font-weight-normal m-0 d-inline-block">Breakfast & Dairy</h2><!-- /.title-of-p-list -->
                 <!-- View all the products, which we listed here. -->
-                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="#">
+                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="./view-all-products.php">
                     <Span class="font-12 ml-1 mr-1">All Breakfast & Dairy</Span> <span class="icon-right-arrow font-12 ml-1 m-auto"></span>
                 </a><!-- /.btn-view-all -->
             </div><!-- /.list-top-title -->
@@ -1706,7 +1706,7 @@
                 <!-- Title of the Listed Products -->
                 <h2 class="title-of-p-list font-weight-normal m-0 d-inline-block">Dry Fruits</h2><!-- /.title-of-p-list -->
                 <!-- View all the products, which we listed here. -->
-                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="#">
+                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="./view-all-products.php">
                     <Span class="font-12 ml-1 mr-1">All Dry Fruits</Span> <span class="icon-right-arrow font-12 ml-1 m-auto"></span>
                 </a><!-- /.btn-view-all -->
             </div><!-- /.list-top-title -->
@@ -1949,7 +1949,7 @@
                 <!-- Title of the Listed Products -->
                 <h2 class="title-of-p-list font-weight-normal m-0 d-inline-block">Instant Foods</h2><!-- /.title-of-p-list -->
                 <!-- View all the products, which we listed here. -->
-                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="#">
+                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="./view-all-products.php">
                     <Span class="font-12 ml-1 mr-1">All Instant Foods</Span> <span class="icon-right-arrow font-12 ml-1 m-auto"></span>
                 </a><!-- /.btn-view-all -->
             </div><!-- /.list-top-title -->
@@ -2192,7 +2192,7 @@
                 <!-- Title of the Listed Products -->
                 <h2 class="title-of-p-list font-weight-normal m-0 d-inline-block">Frozen Foods</h2><!-- /.title-of-p-list -->
                 <!-- View all the products, which we listed here. -->
-                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="#">
+                <a class="btn-view-all ml-auto rounded d-flex justify-content-center font-weight-bold align-items-center col-primary-dark p-0" href="./view-all-products.php">
                     <Span class="font-12 ml-1 mr-1">All Frozen Foods</Span> <span class="icon-right-arrow font-12 ml-1 m-auto"></span>
                 </a><!-- /.btn-view-all -->
             </div><!-- /.list-top-title -->
@@ -2427,10 +2427,6 @@
     </div><!-- /.products-listed-sect -->
 
 
-    <!-- ****************** Filter-Section ******************* -->
-    <?php
-    include './incl/side-filters.php';
-    ?>
 
     <!-- ****************** Footer-Section ******************* -->
     <?php

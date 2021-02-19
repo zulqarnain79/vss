@@ -155,7 +155,7 @@
                             </div><!-- /.add-to-cart-section -->
                         </div><!-- /.card -->
                     </div><!-- /.col-inner -->
-                </div><!-- /.col-md-3 -->
+                </div><!-- /.col-md-4 -->
                 <div class="col-md-4 col-6 col-sm-6 col-lg-3 px-2 mt-3">
                     <div class="col-inner">
                         <div class="card">
@@ -195,7 +195,7 @@
                             </div><!-- /.add-to-cart-section -->
                         </div><!-- /.card -->
                     </div><!-- /.col-inner -->
-                </div><!-- /.col-md-3 -->
+                </div><!-- /.col-md-4 -->
                 <div class="col-md-4 col-6 col-sm-6 col-lg-3 px-2 mt-3">
                     <div class="col-inner">
                         <div class="card">
@@ -235,7 +235,7 @@
                             </div><!-- /.add-to-cart-section -->
                         </div><!-- /.card -->
                     </div><!-- /.col-inner -->
-                </div><!-- /.col-md-3 -->
+                </div><!-- /.col-md-4 -->
                 <div class="col-md-4 col-6 col-sm-6 col-lg-3 px-2 mt-3">
                     <div class="col-inner">
                         <div class="card">
@@ -275,7 +275,7 @@
                             </div><!-- /.add-to-cart-section -->
                         </div><!-- /.card -->
                     </div><!-- /.col-inner -->
-                </div><!-- /.col-md-3 -->
+                </div><!-- /.col-md-4 -->
             </div><!-- /.row -->
         </div><!-- /.my-container -->
     </div><!-- /.related-products-section -->

@@ -59,8 +59,8 @@ body {
 }
 .menus-section .menu-sect-inn .navbar {
     background-color: white!important;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 4.75%!important;
+    margin-right: 4.75%!important;
 }
 .menus-section .menu-sect-inn .navbar .nav-logo .navbar-brand img {
     width: 120px;
@@ -779,6 +779,15 @@ body {
     color: #19A638;
     text-decoration: none;
 }
+.breadcrumb-section .my-container .filter-btn {
+    border: 1px solid #82e698;
+}
+.breadcrumb-section .my-container .filter-btn:hover {
+    cursor: pointer;
+}
+.breadcrumb-section .my-container .filter-btn:hover > .txt {
+    color: #218838;;
+}
 /* ------------------ End - Breadcrumb Section ----------------------- */
 
 
@@ -973,7 +982,128 @@ body {
 /* ------------------ End - Related-Products Section ----------------------- */
 
 
+/* --------------------  View-All-Products Section -------------------------- */
+.view-all-product-sec .empty-view{
+    height: 350px;
+    font-size: 25px;
+}
+.product-view-tabs .my-container .nav {
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+.product-view-tabs .my-container .nav li a {
+    color: #19A638;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-view-tabs .my-container .nav li a .ico {
+    font-size: 22px;
+}
+.product-view-tabs .my-container .nav li a:hover {
+    background-color: #19A638;
+    color: white;
+}
+.product-view-tabs .my-container .nav li > .active {
+    background-color: #19A638;
+    color: white;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card:hover  {
+    box-shadow: 1px 1px 6px #888888;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a {
+    text-decoration: none;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a .row .image-row .card .product-image {
+    width: 100%;
+    height: 200px;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a .row .image-row .card .offer-btn {
+   position: absolute;  
+   top: 5px;
+   left: 5px;
+   padding: 3px 5px;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a .row .image-row .card  .card-img-overlay {
+    background-color: hsla(45, 100%, 51%, 0.4);
+    z-index: 7;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a .row .image-row .card .card-img-overlay .overlay-inner .cart-product-count {
+    min-height: 20px;
+    min-width: 20px;
+    /* background: linear-gradient(orange, red); */
+    background-color: hsla(354, 70%, 54%, 0.8);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 15px;
+    /* padding: 15px; */
+    display: flex;
+    color: rgba(255, 255, 255, 0.9);
+} 
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a .row .details-row {
+    min-height: 82px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a .row .details-row .item-title {
+    font-weight: 400;
+    font-size: 15px;
 
+    /* This will allow text in one line */
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a .row .details-row .price-div {
+    font-weight: 500;
+    font-size: 15px;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a .row .details-row .full-price-div .item-offer-cross-price {
+    font-size: 15px;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card a .row .details-row .full-price-div {
+    font-weight: 300;
+    text-decoration: line-through;
+    text-decoration-color: #dc3545;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card .add-to-cart-section {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card .add-to-cart-section .my-btn {
+    height: 35px;
+    padding: 2px 8px;
+    color: white;
+    border: none;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card .add-to-cart-section .btn-item-add {
+    background-color: #19A638;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card .add-to-cart-section .btn-item-add:hover {
+    background-color: #218838;
+    cursor: pointer;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card .add-to-cart-section .btn-item-remove {
+    background-color: white;
+    border: 1px solid rgb(83, 83, 83);
+    color: rgb(68, 68, 68);
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card .add-to-cart-section .btn-item-remove:hover {
+    background-color: white;
+    color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+.v-a-pr .m-con .t-con .t-pa .r .m-prod .my-card .add-to-cart-section .product-cart-count {
+    height: 35px;
+    padding: 4px 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* ------------------ End - View-All-Products Section ----------------------- */
 
 
 
